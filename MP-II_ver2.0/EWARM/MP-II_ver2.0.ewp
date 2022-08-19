@@ -32,11 +32,11 @@
                 </option>
                 <option>
                     <name>Input description</name>
-                    <state></state>
+                    <state>Full formatting, with multibyte support.</state>
                 </option>
                 <option>
                     <name>Output description</name>
-                    <state></state>
+                    <state>Full formatting, with multibyte support.</state>
                 </option>
                 <option>
                     <name>GOutputBinary</name>
@@ -366,6 +366,14 @@
                     <state>$PROJ_DIR$/../Middlewares/Third_Party/LwIP/src/include/posix/sys</state>
                     <state>$PROJ_DIR$/../Middlewares/Third_Party/LwIP/system/arch</state>
                     <state>$PROJ_DIR$/../Drivers/CMSIS/Include</state>
+                    <state>$PROJ_DIR$\..\Src</state>
+                    <state>$PROJ_DIR$\..\Src\Modbus</state>
+                    <state>$PROJ_DIR$\..\Src\Modbus\include</state>
+                    <state>$PROJ_DIR$\..\Src\port</state>
+                    <state>$PROJ_DIR$\..\Src\Modbus\tcp</state>
+                    <state>$PROJ_DIR$\..\Src\Modbus\ascii</state>
+                    <state>$PROJ_DIR$\..\Src\Modbus\functions</state>
+                    <state>C:\Users\????\Desktop\?????? ??-??\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus\rtu</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -386,7 +394,7 @@
                 <option>
                     <name>CCOptStrategy</name>
                     <version>0</version>
-                    <state>1</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
@@ -449,7 +457,7 @@
                 <option>
                     <name>CCOptStrategySlave</name>
                     <version>0</version>
-                    <state>1</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CCGuardCalls</name>
@@ -1013,7 +1021,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>###Unitialized###</state>
+                    <state>MP-II_ver2.0_import_lib.o</state>
                 </option>
             </data>
         </settings>
@@ -1051,6 +1059,114 @@
             <file>
                 <name>$PROJ_DIR$\startup_stm32f407xx.s</name>
             </file>
+        </group>
+        <group>
+            <name>Modbus_Prot</name>
+            <group>
+                <name>modbus</name>
+                <group>
+                    <name>ascii</name>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\ascii\mbascii.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\ascii\mbascii.h</name>
+                    </file>
+                </group>
+                <group>
+                    <name>functions</name>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\functions\mbfunccoils.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\functions\mbfuncdiag.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\functions\mbfuncdisc.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\functions\mbfuncholding.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\functions\mbfuncinput.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\functions\mbfuncother.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\functions\mbutils.c</name>
+                    </file>
+                </group>
+                <group>
+                    <name>include</name>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\include\mb.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\include\mbconfig.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\include\mbframe.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\include\mbfunc.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\include\mbport.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\include\mbproto.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\include\mbutils.h</name>
+                    </file>
+                </group>
+                <group>
+                    <name>rtu</name>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\rtu\mbcrc.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\rtu\mbcrc.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\rtu\mbrtu.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\rtu\mbrtu.h</name>
+                    </file>
+                </group>
+                <group>
+                    <name>tcp</name>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\tcp\mbtcp.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\Src\Modbus\tcp\mbtcp.h</name>
+                    </file>
+                </group>
+                <file>
+                    <name>$PROJ_DIR$\..\Src\Modbus\mb.c</name>
+                </file>
+            </group>
+            <group>
+                <name>port</name>
+                <file>
+                    <name>$PROJ_DIR$\..\Src\port\mbconfig.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Src\port\port.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Src\port\portevent.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Src\port\portother.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Src\port\porttcp.c</name>
+                </file>
+            </group>
         </group>
         <group>
             <name>User</name>
@@ -1125,6 +1241,9 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c</name>
             </file>
         </group>
     </group>

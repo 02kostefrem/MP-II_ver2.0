@@ -67,6 +67,10 @@
 #define POWLED_GPIO_Port GPIOD
 #define KEY_Pin GPIO_PIN_8
 #define KEY_GPIO_Port GPIOC
+#define RCH2_RE_DE_Pin GPIO_PIN_3
+#define RCH2_RE_DE_GPIO_Port GPIOD
+#define RCH2_485_232_Pin GPIO_PIN_4
+#define RCH2_485_232_GPIO_Port GPIOD
 
 /* ########################## Assert Selection ############################## */
 /**

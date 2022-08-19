@@ -37,6 +37,22 @@ C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM
 -I
 C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM/../Drivers/CMSIS/Include
 -I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM\..\Src
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM\..\Src\Modbus
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM\..\Src\Modbus\include
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM\..\Src\port
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM\..\Src\Modbus\tcp
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM\..\Src\Modbus\ascii
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\EWARM\..\Src\Modbus\functions
+-I
+C:\Users\????\Desktop\?????? ??-??\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus\rtu
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\DSP\Include
@@ -76,6 +92,22 @@ C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Middl
 C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Middlewares\Third_Party\LwIP\system\arch
 -I
 C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Drivers\CMSIS\Include
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Src
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus\include
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Src\port
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus\tcp
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus\ascii
+-I
+C:\Users\Иван\Desktop\Проект МП-ИИ\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus\functions
+-I
+C:\Users\????\Desktop\?????? ??-??\MP-II_ver2.0\MP-II_ver2.0\Src\Modbus\rtu
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I
